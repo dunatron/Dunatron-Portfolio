@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heath Dunlop - Portfolio</title>
+    <meta name="description" content="A collection of my Web Development Work" />
+    <meta name="keywords" content="Heath Dunlop, Web Design, Web Development, Portfolio, Website, Dunatron, developer, new zealand" />
+    <meta name="author" content="Heath Dunlop" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- STYLE CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- SHRINK NAV -->
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                if ($(document).scrollTop() > 50) {
+                    $('nav').addClass('shrink');
+                    var el = document.getElementById( 'brand' );
+                    var elShrink = document.getElementById( 'brandShrink' );
+                    el.classList.add("hidden");
+                    elShrink.classList.remove("hidden");
+
+                } else {
+                    var el = document.getElementById( 'brand' );
+                    var elShrink = document.getElementById( 'brandShrink' );
+                    $('nav').removeClass('shrink');
+                    el.classList.remove("hidden")
+                    elShrink.classList.add("hidden");
+
+                }
+            });
+
+        });
+
+    </script>
+
+    <style>
+
+    </style>
+
+
+    <!--[endif]-->
+</head>
+
+
+<body data-spy="scroll" data-offset="0" data-target="#myScrollspy">
+
+<!-- NAV BAR START -->
+<nav class="navbar navbar-navyBlue navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- BRAND 1 -->
+            <a class="pull-left img-responsive" href="index.html" id="brand">
+
+                <!-- Desktop Brand -->
+                <img class="hidden-xs img-responsive" src="images/HeathBrandWhite.png" alt="">
+                <!-- Mobile brand -->
+                <img class="visible-xs img-responsive" src="" alt="">
+            </a>
+
+            <!-- Brand 2(shrink) -->
+            <a class="pull-left img-responsive hidden" href="#" id="brandShrink">
+
+               <p class="whiteText">Portfolio Heath Dunlop<p>
+            </a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="myScrollspy">
+            <ul class="nav navbar-nav pull-right">
+
+                <li><a href="#sectionProject"><i class="fa fa-folder-open"></i>     Projects</a></li>
+                <li><a href="#sectionMethodology">Methodology</a></li>
+
+                <li><a href="#sectionAbout">About</a></li>
+
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<!-- NAV BAR END -->
+
+
+<!-- END NAVIGATION -->
+
+<!-- START MAIN CONTENT -->
+
+
+<!-- Collapse Header Start -->
+<div id="container">
+
+    <!-- START OF BANNER COLLAPSE -->
+    <div id="banner">
+
+
+        <img src="images/vegeta_goku.jpg" class="img-responsive">
+
+
+        <!-- Collapse Header End -->
+
+    </div>
+
+</div>
+<!-- END OF BANNER COLLAPSE -->
+
+<div id="content">
+
+<!-- Begin page content -->
+
+<!-- SECTION 1 -->
+<div class="divider" id="section1"></div>
+
+<div class="container">
+    <div class="col-sm-10 col-sm-offset-1">
+        <div class="page-header text-center">
+            <a href="#sectionProject"><i class="fa fa-chevron-circle-down fa-5x arrowColour"></i></a>
+            <h1 id="sectionProject">Portfolio</h1>
+        </div>
+
+        <p class="lead text-center">
+            These are projects i have undertaken, both android and web.
+        </p>
+        <p class="lead text-center">
+            Click the thumb nails for more details
+        </p>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-md-4">
+        <h3><a href="site_GVE.html" class="PLOrange">Good VS Evil Fashion</a></h3>
+        <hr>
+        <a href="site_GVE.html" class="thumbnail home-thumb">
+            <img src="images/projects/gve_site.jpg">
+        </a>
+
+
+    </div>
+
+
+    <div class="col-md-4">
+        <h3><a href="site_MDM_Software.html" class="PLOrange">MDM Software</a></h3>
+        <hr>
+        <a href="site_MDM_Software.html" class="thumbnail home-thumb">
+            <img src="images/projects/profileworks6.jpg">
+        </a>
+
+
+    </div>
+
+
+    <div class="col-md-4">
+        <h3><a href="site_Gallipoli.html" class="PLOrange">Southland at Gallipoli</a></h3>
+        <hr>
+        <a href="site_Gallipoli.html" class="thumbnail home-thumb">
+            <img src="images/projects/site_gallipoli.jpg">
+        </a>
+
+
+    </div>
+
+
+    <div class="col-md-4">
+        <h3><a href="site_0n_Board.html" class="PLOrange">On-Board</a></h3>
+        <hr>
+        <a href="site_0n_Board.html" class="thumbnail home-thumb">
+            <img src="images/projects/site_onboard.jpg">
+        </a>
+
+
+    </div>
+
+    <div class="col-md-4">
+        <h3><a href="site_Old_Profile.html" class="PLOrange">Old Profile</a> </h3>
+        <hr>
+        <a href="site_Old_Profile.html" class="thumbnail home-thumb">
+            <img src="images/projects/site_old_profile.jpg">
+        </a>
+
+
+    </div>
+
+    <div class="col-md-4">
+        <h3><a href="site_timmy_tales.html" class="PLOrange">Timmy Tales</a></h3>
+        <hr>
+        <a href="site_timmy_tales.html" class="thumbnail home-thumb">
+            <img src="images/projects/Timmy_site.jpg">
+        </a>
+
+
+    </div>
+
+
+    <hr/>
+
+</div>
+
+
+
+    <div class="container">
+        <hr>
+
+    <div class="row">
+
+        <div class="col-md-6">
+
+            <h2><a href="http://timmytales.hol.es/" target="iframe_b" class="PLOrange">Timmy Tales</a></h2>
+            <hr>
+
+            <iframe src="http://timmytales.hol.es/" name="iframe_b"
+                    style="width: 100%;
+                    height: 800px;
+                    ">
+
+            </iframe>
+
+        </div>
+
+
+        <div class="col-md-6">
+
+            <h2><a href="http://www.gvefashion.hol.es/" target="iframe_a" class="PLOrange">Good VS Evil Fashion</a></h2>
+            <hr>
+
+            <iframe src="http://www.gvefashion.hol.es/" name="iframe_a"
+                    style="width: 100%;
+                    height: 800px;
+                    ">
+
+                    </iframe>
+
+        </div>
+
+
+
+    </div>
+
+        <hr>
+
+    </div>
+
+<!-- SECTION 2 -->
+<div class="divider" id="sectionMethodology"></div>
+
+<section class="bg-1">
+    <div class="col-sm-6 col-sm-offset-3 text-center">
+        <h2 style="padding:20px;background-color:rgba(5,5,5,.8); color: #f58026">Mobile First + Responsive Web Design</h2>
+        <p style="padding:20px;background-color:rgba(5,5,5,.8);">Google recommends webmasters follow
+            the industry best practice of using responsive web design,
+            namely serving the same HTML for all devices and using only CSS
+            media queries to decide the rendering on each device.</p>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+
+<!-- SECTION 3 -->
+
+    <hr id="section3">
+    <div class="row">
+
+
+
+        <div class="col-md-6">
+            <img src="images/prettiers/responsive_1.png" class="img-responsive">
+        </div>
+
+        <div class="col-md-6">
+            <img src="images/prettiers/responsive_example_1.png" class="img-responsive">
+        </div>
+
+    </div>
+
+    <div class="container">
+
+
+
+    <hr>
+    </div>
+
+    <!--/col-->
+
+<!--/container-->
+
+<div class="divider"></div>
+
+
+<!-- SECTION 4 -->
+<section class="bg-3" id="sectionAbout">
+    <div class="col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:20px;background-color:rgba(5,5,5,.8)"
+            class="orangeText">
+        About Me</h2>
+    </div>
+
+    <div class="col-sm-6 col-sm-offset-3 text-center"><p style="padding:20px;background-color:rgba(5,5,5,.8)"
+                                                          class="whiteText">
+        While studying a Bachelors’ Degree in Information Technology at the Southern Institute of Technology, I was able
+        to both develop and strengthened my technological skills; now being proficient in HTML, CSS, PHP, SQL,
+        JAVA, XML and C#.
+        <br>
+        <br>
+
+        I am passionate about technology, particularly when in comes to the web and mobile development fields.
+        I feel the ability to manipulate, and control technology is stimulating and rewarding. My greatest satisfaction
+        comes from creating something that is user friendly and working upto user expectations. I feel that any type
+        of user system should be pleasent to use, and creating such systems has become my passion. My attention to
+        detail, analytical skills, ability to effectively communicate and creativity put me in a good place to be a
+        fronting force in the industry.
+        <br>
+        <br>
+
+        I am most interested in working for a team that has a customer focus which, provides it's customer with
+        fulfilment and the satisfaction of being involved in the design process. I want to be involved in a team that
+        is leading edge, not meeting standards, but bettering and setting them for others.</p>
+    </div>
+
+
+</section>
+
+
+
+<!-- SECTION 5 -->
+<div class="divider"></div>
+
+
+<footer class="footer whiteText">
+
+<div class="container">
+    <div class="col-sm-8 col-sm-offset-2 text-center">
+        <h3>Tron Web Development</h3>
+
+        <hr>
+
+
+                <p><i class="fa fa-envelope-o fa-2x"></i>&nbsp;&nbsp; heath.dunlop.hd@gmail.com</p>
+
+
+
+                <p> <i class="fa fa-phone fa-2x"></i>&nbsp;&nbsp; 027 929 3810 </p>
+
+
+        <hr>
+        <ul class="list-inline center-block">
+            <li><a href="http://facebook.com/bootply" class="facebook"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+            <li><a href="http://twitter.com/bootply" class="twitter"><i class="fa fa-twitter-square fa-3x"></i></a></li>
+            <li><a href="http://google.com/+bootply" class="google"><i class="fa fa-google-plus-square fa-3x"></i></a></li>
+            <li><a href="http://pinterest.com/in1" class="linkdn"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
+        </ul>
+
+    </div>
+    <!--/col-->
+</div>
+<!--/container-->
+</footer>
+    <!--/footer-->
+
+</div>
+<!--/wrap-->
+
+
+<!-- END MAIN CONTENT -->
+
+<!-- Scripts -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
