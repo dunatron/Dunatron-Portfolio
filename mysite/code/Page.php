@@ -32,6 +32,7 @@ class Page_Controller extends ContentController {
 		parent::init();
 
         Requirements::css($this->ThemeDir()."/css/style.css");
+        Requirements::css($this->ThemeDir()."/css/bootstrap.css");
 		// You can include any CSS or JS required by your project here.
 		// See: http://doc.silverstripe.org/framework/en/reference/requirements
 	}

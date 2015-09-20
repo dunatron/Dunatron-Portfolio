@@ -1,11 +1,6 @@
 <!-- NAVIGATION -->
-
 <% include Navigation %>
-
-
-
 <!-- END NAVIGATION -->
-
 
 <div class="container">
 
@@ -23,16 +18,15 @@
     </div>
 
     <hr>
-
-
     <hr>
+
 </div>
 
 <div class="container" style="text-align: left;">
 
-<code>
-$Content
-</code>
+    <code>
+        $Content
+    </code>
 
     <h1>Comments</h1>
     <hr>
@@ -41,9 +35,12 @@ $Content
         <ul>
             <% loop $Comments %>
                 <li>
-                    <img src="$ThemeDir/images/comment-man.jpg" alt="" />
+                    <img src="$ThemeDir/images/comment-man.jpg" alt=""/>
+
                     <div class="comment">
-                        <h3>$Name<small>$Created.Format('j F, Y')</small></h3>
+                        <h3>$Name
+                            <small>$Created.Format('j F, Y')</small>
+                        </h3>
                         <p>$Comment</p>
                     </div>
                 </li>
@@ -53,6 +50,7 @@ $Content
         <div class="comments-form">
             <div class="col-sm-12">
                 <h3>Leave a Reply</h3>
+
                 <p>Your email address will no be published. Required fields are marked*</p>
             </div>
 
