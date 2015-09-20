@@ -157,7 +157,7 @@
         <hr>
         <h4 style="text-align: left;">This Section contains the latest tutorials that I have released. These tutorials are focused on silverstripe, my
         framework of choice. But will also include some css Tutorials for some beautiful css tricks. To view all tutorials click the
-        Tutorials tab in the menu</h4>
+        Tutorials tab in the menu. To get the source code or other repo's visit <a href="https://github.com/dunatron/">my git page</a></h4>
     </div>
 
 </div>
@@ -235,3 +235,6 @@
 
 <!-- SECTION 5 -->
 <div class="divider"></div>
+
+    <!-- GOOGLE ANALYTICS CODE START -->
+
