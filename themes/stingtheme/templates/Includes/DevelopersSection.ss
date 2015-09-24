@@ -35,7 +35,7 @@
     <hr>
     <%loop $LatestTutorials %>
         <div class="col-md-4">
-            <h3><a href="$Link" class="PLOrange">$Title</a></h3>
+            <h3 class="text-center"><a href="$Link" class="projectlink">$Title</a></h3>
             <a href="$Link" class="thumbnail home-thumb tutorialThumbnail">
                 <% with $TutorialPhoto.CroppedImage(500,500) %>
                     <img class="img-responsive" src="$URL" alt="" width="$Width" height="$Height"/>

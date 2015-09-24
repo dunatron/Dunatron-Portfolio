@@ -1,5 +1,5 @@
 <!-- NAVIGATION -->
-<% include Navigation %>
+<% include MainNav %>
 <!-- END NAVIGATION -->
 
 <div class="container">

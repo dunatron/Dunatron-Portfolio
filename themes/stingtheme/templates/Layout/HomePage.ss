@@ -14,7 +14,7 @@
                     <div class="mbr-buttons btn-inverse mbr-buttons--center">
 
 
-                        <% control Page(project-holder) %>
+                        <% control Page(projects) %>
                         <a class="mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay" href="$Link">
                             Projects
                         </a>
