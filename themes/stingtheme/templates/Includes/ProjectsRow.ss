@@ -7,28 +7,23 @@
     </div>
 
     <div class="row">
-
         <% loop $LatestProjects %>
             <div class="col-md-4 col-sm-6">
-
-                <h3 class="text-center"><a href="$Link" class="projectlink">$Title</a></h3>
-
-                <a href="$Link" class="thumbnail home-thumb">
-
+                <a href="$Link" class="thumbnail tronOverlay">
                     <% with $Photo.CroppedImage(340,190) %>
-
-                        <img class="" src="$URL" alt="" width="$Width" height="$Height"/>
-
+                        <img class="tronOverlay_image" src="$URL" alt="" width="$Width" height="$Height"/>
                     <% end_with %>
-
+                    <div class="tronOverlay_body">
+                        <h3>$Title</h3>
+                        <p>$Category</p>
+                    </div>
                 </a>
-
             </div>
         <% end_loop %>
-        
-        <hr/>
 
+        <hr/>
     </div>
+
 </div>
 
 

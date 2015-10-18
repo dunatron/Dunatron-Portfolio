@@ -1109,6 +1109,20 @@ a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
+a.git {
+  color: #4c6972;
+  text-decoration: none; }
+
+a.git:hover,
+a.git:focus {
+  color: #f58026;
+  text-decoration: underline; }
+
+a.git:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; }
+
 figure {
   margin: 0; }
 
@@ -4299,7 +4313,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
+  color: #f58026;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;

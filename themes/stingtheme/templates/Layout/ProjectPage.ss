@@ -30,18 +30,7 @@
             </div>
         </div>
         <hr>
-        <h2 class="tron-header-reverse text-center">Project Overview</h2>
-        <hr>
-        <h3 class="tron-header">Coming Soon...
-        </h3>
-        <p class="tron-paragraph-grey">Cras ipsum urna, semper ut ultricies eget, ultrices eget libero.
-            Proin ac consectetur felis. Aliquam erat volutpat. Aliquam erat volutpat. Duis eget mattis neque,
-            id interdum sapien. Proin accumsan a metus at efficitur. Vestibulum ante ipsum primis in faucibus orci
-            luctus et ultrices posuere cubilia Curae; Maecenas mi nibh, faucibus vel velit id, gravida iaculis odio.
-            Integer urna lacus, tincidunt sed lacinia nec, faucibus eu quam. Mauris lacinia orci eget eleifend gravida.
-            Integer id velit sem. Fusce pharetra purus eget tellus efficitur feugiat. In ac metus fringilla,
-            sollicitudin ante eget, eleifend est. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas.</p>
+
     </div>
     <!-- 2/3 of row end -->
 

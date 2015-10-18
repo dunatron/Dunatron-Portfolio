@@ -9,39 +9,76 @@
                         <h2 style="margin-bottom: 50px;">Coding For All Devices!</h2>
 
                         <div>
-                            <h3>RWD what is it?&nbsp;</h3>
+                            <!-- Col 1 (1 of 2) -->
+                            <div class="col-md-6">
+                                <h3>RWD what is it?&nbsp;</h3>
 
-                            <p>RWD(Responsive Web Design) is an approach to web design, designed at optimizing the
-                                viewing experience through media queries. These media queries change the way the content
-                                is rendered based upon the devices dimensions.&nbsp;</p>
+                                <p>RWD(Responsive Web Design) is an approach to web design, designed at optimizing the
+                                    viewing experience through media queries. These media queries change the way the content
+                                    is rendered based upon the devices dimensions.&nbsp;</p>
 
-                            <p>
-                                <br>
-                            </p>
+                                <p>
+                                    <br>
+                                </p>
 
-                            <h3>Thats cool, why do I care?&nbsp;</h3>
+                                <h3>Thats cool, why do I care?&nbsp;</h3>
 
-                            <p>RWD has become more important than ever in todays age for many reasons. Last year in 2014
-                                , 60 percent of total digital media time was spent on smartphones and tablets. This
-                                means
-                                that if your site is not optimized for mobile viewing then your customers are clicking
-                                away to the competition. Another reason is SEO(Search Engine Optimization). A site that
-                                is responsive will be bumped up quite substantially in the google rankings. To be blunt
-                                google favours sites that are responsive and is encouraging RWD to become the standard
-                            </p>
+                                <p>RWD has become more important than ever in todays age for many reasons. Last year in 2014
+                                    , 60 percent of total digital media time was spent on smartphones and tablets. This
+                                    means
+                                    that if your site is not optimized for mobile viewing then your customers are clicking
+                                    away to the competition. Another reason is SEO(Search Engine Optimization). A site that
+                                    is responsive will be bumped up quite substantially in the google rankings. To be blunt
+                                    google favours sites that are responsive and is encouraging RWD to become the standard
+                                </p>
 
-                            <p>
-                                <br>
-                            </p>
+                                <p>
+                                    <br>
+                                </p>
 
-                            <h3>But dont take it from me&nbsp;</h3>
+                                <h3>But dont take it from me&nbsp;</h3>
 
-                            <p>"Google recommends webmasters follow the industry best practice of using responsive web
-                                design, namely serving the same HTML for all devices and using only CSS media queries
-                                to decide the rendering on each device."&nbsp;
-                            </p>
+                                <p>"Google recommends webmasters follow the industry best practice of using responsive web
+                                    design, namely serving the same HTML for all devices and using only CSS media queries
+                                    to decide the rendering on each device."&nbsp;
+                                </p>
 
-                            <p>- Google</p>
+                                <p>- Google</p>
+                            </div>
+
+                            <!-- Col 2 (2 of 2) -->
+                            <div class="col-md-6">
+
+                                <h3>What we can do for YOU!&nbsp;</h3>
+
+                                <p>We can deliver to you a website that is clean and easy to navigate, along with it looking great on all devices!
+                                    We will also be able to deliver a dynamic site, which will let you easily upload or change content on your site.
+                                    This dynamic system will be custom built and simple to use.Check out one of our clients using their new system in the developers
+                                    section video below&nbsp;</p>
+
+                                <p>
+                                    <br>
+                                </p>
+
+                                <h3>Built On&nbsp;</h3>
+
+                                <p>
+                                    Our sites will be built upon the SilverStripe framework. SilverStripe is an international
+                                    web development company which curates the SilverStripe CMS & Framework,
+                                    and is supported by a vibrant online community.
+                                </p>
+
+                                <p>
+                                    <br>
+                                </p>
+
+                                <h3>Ok what does this cost&nbsp;</h3>
+
+                                <p>$$$&nbsp;
+                                </p>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>

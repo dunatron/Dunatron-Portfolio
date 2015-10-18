@@ -8,7 +8,7 @@
                         <span class="mbr-brand__logo">
                             <img class="mbr-navbar__brand-img mbr-brand__img" alt="" src="$ThemeDir/images/brand_icon_white.png">
                         </span>
-                        <span class="mbr-brand__name">Tron Studios</span>
+
                     </a>
                 </div>
                 <div class="mbr-navbar__hamburger mbr-hamburger text-white"><span class="mbr-hamburger__line"></span></div>
